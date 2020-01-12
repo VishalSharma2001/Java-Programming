@@ -1,4 +1,3 @@
-import java.awt.Color;
 import javax.swing.*;
 import java.awt.event.*;
 public class Swingadd extends JFrame{
@@ -13,7 +12,7 @@ public class Swingadd extends JFrame{
 		   t1=new JTextField();
 		   t2=new JTextField();
 		   b1=new JButton("Add");
-		   b2=new JButton("Clear");  
+		   b2=new JButton("Clear");
 		   setLayout(null);
 		   l1.setBounds(60,60,80,40);
 		   t1.setBounds(180,70,200,20);
@@ -52,9 +51,8 @@ public class Swingadd extends JFrame{
   	}
 	
     public static void main(String[] args){
-    Swingadd f =new Swingadd();
+    Swingadd f=new Swingadd();
 	f.setComponent();
-	//f.setColor(Color.cyan);
 	f.setTitle("Vishal Swings");
 	f.setVisible(true);
 	f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
